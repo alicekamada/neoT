@@ -3,6 +3,6 @@ node_js:
   - "node"
 before_install:
   - "git fetch --all"
-  - "git checkout origin/testing"
+  - "git checkout testing"
   - "git checkout master"
   - "git merge testing"
