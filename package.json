@@ -1,0 +1,14 @@
+{
+  "name": "neoTaser",
+  "version": "1.0.0",
+  "description": "Experiment to conduct out-of-band testing for a repo where tests shouldn't be included in every branch",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Cassandra Cruz <celkamada@gmail.com> (http://alicekamada.github.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
