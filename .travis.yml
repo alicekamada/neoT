@@ -2,4 +2,6 @@ language: node_js
 node_js:
   - "node"
 before_install:
+  - "git branch"
+  - "git remote -v"
   - "git merge testing"
