@@ -12,4 +12,4 @@ before_install:
   - "git remote -v"
   - "git checkout testing"
   - "git checkout master"
-  - "git merge testing"
+  - "git merge testing -m \"To take over the world!\""
