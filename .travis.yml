@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "node"
 before_install:
-  - "rm -rf ./.git # geting rid of first cloned repo
+  - "rm -rf ./.git" # geting rid of first cloned repo
   - "git clone https://github.com/alicekamada/neoT.git"
   - "cd neoT"
   - "git fetch origin"
