@@ -5,6 +5,8 @@ before_install:
   - "rm -rf ./.git" # geting rid of first cloned repo
   - "git clone https://github.com/alicekamada/neoT.git"
   - "cd neoT"
+  - "git config --global user.email \"Dr.Robotnik@evil.empire.com\""
+  - "git config --global user.name \"Dr. Robotnik, Head of Razing and Destroying\""
   - "git fetch origin"
   - "git branch -v"
   - "git remote -v"
