@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "node"
 before_install:
-  - "git fetch -v --all"
-  - "git checkout --track origin/testing"
+  - "git fetch origin"
+  - "git checkout testing"
   - "git checkout master"
   - "git merge testing"
